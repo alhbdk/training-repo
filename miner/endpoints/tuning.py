@@ -255,7 +255,7 @@ async def task_offer_image(
 
 async def get_training_repo(task_type: TournamentType) -> TrainingRepoResponse:
     return TrainingRepoResponse(
-        github_repo="https://github.com/alhbdk/training-repo", commit_hash="e40a849eb93eeb7adeec530a2adac62384122c62"
+        github_repo="https://github.com/alhbdk/training-repo", commit_hash="b6c8962525b4856c3f75b90e474e8f98cbc2f16b"
     )
 
 
