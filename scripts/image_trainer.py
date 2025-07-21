@@ -50,7 +50,7 @@ def create_config(task_id, model, model_type, expected_repo_name):
     elif model_type == ImageModelType.FLUX.value:
         with open(flux_path, "r") as file:
             config = toml.load(file)
-            config["max_train_steps"] = int(hours_to_complete * 600)
+            config["max_train_steps"] = int(1200)
     else:
         raise ValueError(f"Unknown model type: {model_type}")
 
